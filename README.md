@@ -1,0 +1,1 @@
+This repository demonstrates a subtle bug in Python: insufficient exception handling.  The `function_with_uncommon_error` function only handles the case where `a` is 0, failing to account for other potential exceptions, like `ZeroDivisionError` when `b` is 0 and `a` is not.  The `bugSolution.py` file presents a robust solution.
